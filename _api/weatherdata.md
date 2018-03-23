@@ -1,8 +1,8 @@
 ---
 title: /books
-position: 1.6
+position: 1.1
 type: post
-description: weatherdata
+description: Create Book
 parameters:
   - name: title
     content: The title for the book

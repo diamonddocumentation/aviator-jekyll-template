@@ -6,8 +6,8 @@ parameters:
     content:
 content_markdown: >-
  
-
 A summary of the clients available:
+
 | **Language** | **Download links** | **Notes** |
 |:-------------|:-------------------|:----------|
 | Java         | [GitHub](https://github.com/zaproxy/zaproxy/releases) | Official API  |

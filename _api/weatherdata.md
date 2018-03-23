@@ -1,12 +1,11 @@
 ---
 title: /weatherdata
 position: 1.6
-type: get description
-description: Gets the full weather data details including temperature, wind, astronomy and more.
+type: get
+description: Gets the full weather data details, including temperature, wind, astronomy, and more.
 right_code: |
-
----
-return: |
+  ~~~ json
+  return: |
     [
     {
     "query": {
@@ -119,21 +118,29 @@ return: |
     }
     }
     ]
-{: title="Response" }
+  ~~~
+  {: title="Response" }
 
+  ~~~ json
   {
     "error": true,
     "message": "Not supported."
   }
-{: title="Error" }
-lat : The latitude for the weather location. For example, 37.3708698.
+  ~~~
+  {: title="Error" }
+---
+lat
+: The latitude for the weather location. For example, `37.3708698`.
 
-lng : The longitude for the weather location. for example, -122.037593.
+lng
+: The longitude for the weather location. for example, `-122.037593`.
 
-These values will be added as query parameters. {: .success }
+These values will be added as query parameters.
+{: .success }
 
 The following code sample shows how to make a request using jQuery AJAX:
 
+~~~ javascript
 var settings = {
   "async": true,
   "crossDomain": true,
@@ -151,4 +158,5 @@ var settings = {
 $.ajax(settings).done(function (response) {
   console.log(response);
 });
+~~~
 {: title="jQuery" }

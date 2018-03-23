@@ -5,7 +5,8 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  A summary of the clients available:
+ 
+A summary of the clients available:
 
 | **Language** | **Download links** | **Notes** |
 |:-------------|:-------------------|:----------|

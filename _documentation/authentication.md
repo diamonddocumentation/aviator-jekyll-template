@@ -12,13 +12,13 @@ content_markdown: >-
   enable it.&nbsp;
 
 
-  1. Select** Tools&gt;Options**&nbsp;to open the Options window&nbsp;
+  1. Select **Tools&gt;Options**&nbsp;to open the Options window&nbsp;
 
   2. &nbsp;From the list on the left, select **API**
 
   3. Check the **Enabled**&nbsp;box&nbsp;
 
-  4. Check the **UI Enabled**&nbsp;boxthe API Key
+  4. Check the **UI Enabled**&nbsp;box
 
 
   If you run ZAP in 'headless' mode via the command line or 'daemon' mode using

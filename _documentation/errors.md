@@ -4,7 +4,7 @@ position: 3
 parameters:
   - name:
     content:
-content_markdown: |-
+content_markdown: >-
  
 A summary of the clients available:
 | **Language** | **Download links** | **Notes** |

@@ -12,7 +12,7 @@ content_markdown: |-
 
   The API URLs are of the form:
 
-'http://zap/<format>/<component>/<operation>/<operation name>[/?<parameters>]''
+```http://zap/<format>/<component>/<operation>/<operation name>[/?<parameters>]```
 
 The format can currently be 'JSON', 'XML' or 'HTML' - choose whichever you can consume more easily
 

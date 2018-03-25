@@ -1,7 +1,7 @@
 ---
 title: /Components
 position: 1
-type: post
+type:
 description: Available components
 parameters:
   - name: title
@@ -9,10 +9,18 @@ parameters:
   - name: score
     content: The book's score between 0 and 5
 content_markdown: |-
-  The book will automatically be added to your reading list
-  {: .success}
+  These are the components available to interact with.
+  {: .info}
 
-  Adds a book to your collection.
+  Adds a book to
+
+  | &nbsp; |
+  | &nbsp; |
+  | &nbsp; |
+  | &nbsp; |
+  | &nbsp; |
+
+  &nbsp;
 left_code_blocks:
   - code_block: |-
       $.post("http://api.myapp.com/books/", {

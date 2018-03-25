@@ -28,9 +28,6 @@ The components, operation names and parameters can all be discovered by browsing
   |authorization|
   |autoupdate|
   |break|
-
-  &nbsp;
-
 ---
 
 

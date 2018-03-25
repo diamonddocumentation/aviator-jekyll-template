@@ -2,11 +2,7 @@
 title: /break
 position: 1
 type: get
-description: >-
-  Controls the global break functionality. The type may be one of: http-all,
-  http-request or http-response. The state may be true (for turning break on for
-  the specified type) or false (for turning break off). Scope is not currently
-  used
+description: Controls the global break functionality.
 parameters:
   - name: type
     content: 'http-all, http-request or http-response'
@@ -16,14 +12,7 @@ parameters:
       break off)
   - name: scope
     content: not currently used
-content_markdown: >-
-  This call will return a maximum of 100 books
-
-  {: .info}
-
-
-  Lists all the photos you have access to. You can paginate by using the
-  parameters listed above.
+content_markdown:
 left_code_blocks:
   - code_block: >-
       $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"},
@@ -31,7 +20,7 @@ left_code_blocks:
         alert(data);
       });
     title: jQuery
-    language: javascript
+    language: python
   - code_block: |-
       r = requests.get("http://api.myapp.com/books/", token="YOUR_APP_KEY")
       print r.text

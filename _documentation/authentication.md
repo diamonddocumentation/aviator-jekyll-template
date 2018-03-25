@@ -20,12 +20,14 @@ content_markdown: >-
 
   4. Check the **UI Enabled**&nbsp;box
 
+  5. Copy the **API Key**for use later
+
 
   If you run ZAP in 'headless' mode via the command line or 'daemon' mode using
   the -daemon flag then the API will be automatically enabled.
 
 
-  The API key is generated for you automatically
+  The API key is generated for you automatically.
 
   {: .error}
 left_code_blocks:

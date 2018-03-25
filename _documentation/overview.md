@@ -13,8 +13,6 @@ The REST API can be accessed directly or via one of the client implementations d
 
 It is documented briefly in the ZAP [user guide](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsApi)
 
-
-
   You'll succeed if you do this.
   {: .success }
 

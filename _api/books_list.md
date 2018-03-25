@@ -9,7 +9,7 @@ description: >-
   used
 parameters:
   - name: type
-    content: Offset the results by this amount
+    content: 'http-all, http-request or http-response'
   - name: state
     content: Limit the number of books returned
   - name: scope

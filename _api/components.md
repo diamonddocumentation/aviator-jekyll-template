@@ -5,50 +5,32 @@ type:
 description: Available components
 parameters:
   - name: component
-    content: The title for the book
-  - name: score
-    content: The book's score between 0 and 5
+    content: The component to be interacted with
 content_markdown: |-
   These are the components available to interact with.
   {: .info}
 
-  Adds a book to
+  The API URLs are of the form:
+
+http://zap/<format>/<component>/<operation>/<operation name>[/?<parameters>]
+
+The format can currently be 'JSON', 'XML' or 'HTML' - choose whichever you can consume more easily
+
+The operation can be 'view' or 'action'
+
+The components, operation names and parameters can all be discovered by browsing the API.
 
   |acsrf |
   |ajaxSpider |
   |alertFilter |
   |ascan |
   |authentication|
+  |authorization|
+  |autoupdate|
+  |break|
 
   &nbsp;
-left_code_blocks:
-  - code_block: |-
-      $.post("http://api.myapp.com/books/", {
-        "token": "YOUR_APP_KEY",
-        "title": "The Book Thief",
-        "score": 4.3
-      }, function(data) {
-        alert(data);
-      });
-    title: jQuery
-    language: javascript
-right_code_blocks:
-  - code_block: |-
-      {
-        "id": 3,
-        "title": "The Book Thief",
-        "score": 4.3,
-        "dateAdded": "5/1/2015"
-      }
-    title: Response
-    language: json
-  - code_block: |-
-      {
-        "error": true,
-        "message": "Invalid score"
-      }
-    title: Error
-    language: json
+
 ---
 
 

@@ -15,8 +15,6 @@ A summary of the clients available:
 | PHP          | [GitHub](https://github.com/yukisov/php-owasp-zap-v2) [Packagist](https://packagist.org/packages/zaproxy/php-owasp-zap-v2)  | In process of becoming an official API |
 | Ruby         | [GitHub](https://github.com/SUSE/owasp_zap) |           |
 | Ruby         | [GitHub](https://github.com/vpereira/owasp_zap) |           |
-
-  
 left_code_blocks:
   - code_block:
     title:

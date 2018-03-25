@@ -11,9 +11,11 @@ parameters:
   - name: type
     content: 'http-all, http-request or http-response'
   - name: state
-    content: Limit the number of books returned
+    content: >-
+      true (for turning break on for the specified type) or false (for turning
+      break off)
   - name: scope
-    content:
+    content: not currently used
 content_markdown: >-
   This call will return a maximum of 100 books
 

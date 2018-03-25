@@ -1,8 +1,8 @@
 ---
-title: /books
+title: /break
 position: 1.1
-type: post
-description: Create Book
+type: get
+description: Returns the HTTP message currently intercepted (if any)
 parameters:
   - name: title
     content: The title for the book

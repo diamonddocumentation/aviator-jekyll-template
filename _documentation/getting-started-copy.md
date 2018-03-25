@@ -5,19 +5,28 @@ parameters:
   - name:
     content:
 content_markdown: >-
-  &nbsp; Welcome to the ZAP API.
+  Welcome to the ZAP API.
+
+ZAP provides a REST Application Programming Interface (API) which allows you to interact with ZAP programmatically.
+
+The REST API can be accessed directly or via one of the client implementations detailed below.
+
+It is documented briefly in the ZAP [user guide](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsApi)
 
 
-  ZAP provides a REST Application Programming Interface (API) which allows you
-  to interact with ZAP programmatically.
 
+  You'll succeed if you do this.
+  {: .success }
 
-  The REST API can be accessed directly or via one of the client implementations
-  detailed below.
+  Here's some useful information.
+  {: .info }
 
+  Something may not happen if you try and do this.
+  {: .warning }
 
-  It is documented briefly in the ZAP [user
-  guide](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsApi)
+  Something bad will happen if you do this.
+  {: .error }
+  
 left_code_blocks:
   - code_block:
     title:

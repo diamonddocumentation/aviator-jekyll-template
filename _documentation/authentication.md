@@ -20,7 +20,7 @@ content_markdown: >-
 
   4. Check the **UI Enabled**&nbsp;box
 
-  5. Copy the **API Key**for use later
+  5. Copy the **API Key&nbsp;**for use later
 
 
   If you run ZAP in 'headless' mode via the command line or 'daemon' mode using

@@ -4,10 +4,8 @@ position: 1.1
 type: get
 description: Returns the HTTP message currently intercepted (if any)
 parameters:
-  - name: title
-    content: The title for the book
-  - name: score
-    content: The book's score between 0 and 5
+  - name:
+    content:
 content_markdown: |-
   The book will automatically be added to your reading list
   {: .success}

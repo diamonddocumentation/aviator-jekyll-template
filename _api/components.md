@@ -4,7 +4,7 @@ position: 1
 type:
 description: Available components
 parameters:
-  - name: title
+  - name: component
     content: The title for the book
   - name: score
     content: The book's score between 0 and 5
@@ -14,11 +14,11 @@ content_markdown: |-
 
   Adds a book to
 
-  | &nbsp; |
-  | &nbsp; |
-  | &nbsp; |
-  | &nbsp; |
-  | &nbsp; |
+  |acsrf |
+  |ajaxSpider |
+  |alertFilter |
+  |ascan |
+  |authentication|
 
   &nbsp;
 left_code_blocks:
